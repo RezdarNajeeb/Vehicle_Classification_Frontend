@@ -99,7 +99,7 @@ function App() {
       setResult(
         <div>
           Predicted Vehicle Class: {data.predicted_class}<br />
-          Probability: %{(data.probability * 100).toFixed(3)}
+          Confidence: %{(data.probability * 100).toFixed(3)}
         </div>
       )
     } catch (error) {
